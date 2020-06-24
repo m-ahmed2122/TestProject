@@ -1,9 +1,9 @@
-package com.obaid.oops;
+package com.Sec8.OOPs.BMW;
 
 public class BMWRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		BMW FiveSeries = new BMW();
 		BMW SevenSeries= new BMW();
 		BMW ThreeSeries= new BMW();
@@ -12,6 +12,8 @@ public class BMWRunner {
 		FiveSeries.start();
 		SevenSeries.start();
 		ThreeSeries.start();
+		
+		
 		
 		FiveSeries.setSpeed(120);
 		
@@ -24,6 +26,15 @@ public class BMWRunner {
 		ThreeSeries.setSpeed(100);
 		
 		System.out.println(ThreeSeries.getSpeed());
+		FiveSeries.setRpm(1000);
+		System.out.println(FiveSeries.getRpm());
+		
+		SevenSeries.setRpm(500);
+		
+		System.out.println(SevenSeries.getRpm());
+		
+		ThreeSeries.setRpm(100);
+		System.out.println(ThreeSeries.getRpm());  
 		
 		
 		

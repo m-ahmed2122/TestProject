@@ -1,4 +1,4 @@
-package com.obaid.oops;
+package com.Sec8.OOPs.Book;
 
 public class Book {
 	
@@ -8,15 +8,9 @@ public class Book {
 		this.noOfCopies = noOfCopies;
 	}
 	
-	
-	
-	
 	public int getNoOfCopies() {
 		return noOfCopies;
 	}
-
-
-
 
 	public void setNoOfCopies(int noOfCopies) {
 		this.noOfCopies = noOfCopies;
@@ -27,10 +21,6 @@ public class Book {
 		
 	}
 	
-
-
-
-
 	void start() {
 		System.out.println("Started Reading");
 		System.out.println("Completed Reading");

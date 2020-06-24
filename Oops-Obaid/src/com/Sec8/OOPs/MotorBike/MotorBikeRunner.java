@@ -1,4 +1,4 @@
-package com.obaid.oops;
+package com.Sec8.OOPs.MotorBike;
 
 public class MotorBikeRunner {
 
@@ -15,22 +15,23 @@ public class MotorBikeRunner {
 		
 		
 		ducati.setSpeed(100);
+		honda.setSpeed(200);
+		
 		
 		ducati.increaseSpeed(100);
 		
 		honda.increaseSpeed(100);
-		
-		ducati.decreaseSpeed(250);
-		
-		honda.decreaseSpeed(250);
-		
-				
+			
 		System.out.println(ducati.getSpeed());
-		
-		
 		System.out.println(honda.getSpeed());
 	
+		
+		ducati.decreaseSpeed(50);
+		honda.decreaseSpeed(50);
 	
+	System.out.println(ducati.getSpeed());
+	
+	System.out.println(honda.getSpeed());
 	}
 	
 	

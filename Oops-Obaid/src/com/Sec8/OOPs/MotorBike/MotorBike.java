@@ -1,4 +1,4 @@
-package com.obaid.oops;
+package com.Sec8.OOPs.MotorBike;
 
 public class MotorBike {
 	
@@ -8,11 +8,9 @@ public class MotorBike {
 		this.speed = speed;
 	}
 	
-	
 	public int getSpeed() {
 		return speed;
 	}
-
 
 	public void setSpeed(int speed) {
 		if(speed>0)
@@ -24,7 +22,6 @@ public class MotorBike {
 	}
 	public void decreaseSpeed(int howMuch) {
 		setSpeed(this.speed - howMuch );
-		
 	}
 	void start() {
 		System.out.println("Bike Started");

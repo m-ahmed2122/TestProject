@@ -1,12 +1,12 @@
-package com.obaid.oops;
+package com.Sec8.OOPs.Book;
 
 public class BookRunner {
 
 	public static void main(String[] args) {
 		
-		Book artOfCoputerProgramming = new Book(5);
-		Book effectiveJava = new Book(6);
-		Book cleanCode= new Book(7);
+		Book artOfCoputerProgramming = new Book(10);
+		Book effectiveJava = new Book(20);
+		Book cleanCode= new Book(50);
 		
 		System.out.println(artOfCoputerProgramming.getNoOfCopies());
 		
@@ -21,9 +21,9 @@ public class BookRunner {
 		
 		artOfCoputerProgramming.setNoOfCopies(500);
 		
-		effectiveJava.setNoOfCopies(800);
+		effectiveJava.setNoOfCopies(500);
 		
-		cleanCode.setNoOfCopies(1000);
+		cleanCode.setNoOfCopies(500);
 		
 		
 		artOfCoputerProgramming.increaseNoOfCopies(1500);
@@ -31,25 +31,16 @@ public class BookRunner {
 		effectiveJava.increaseNoOfCopies(1200);
 		
 		cleanCode.increaseNoOfCopies(1000);
-		
-		
-		
-		
-	
+			
 
 		System.out.println(artOfCoputerProgramming.getNoOfCopies());
 		
-		
-		
 		System.out.println(	effectiveJava.getNoOfCopies());
-		
-		
-		
 		
 		System.out.println(cleanCode.getNoOfCopies());
 		
 		
-		// TODO Auto-generated method stub
+		
 
 	}
 

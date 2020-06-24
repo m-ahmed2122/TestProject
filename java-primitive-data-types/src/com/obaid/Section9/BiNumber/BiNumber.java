@@ -1,4 +1,4 @@
-package com.obaid.primitive.datatypes;
+package com.obaid.Section9.BiNumber;
 
 public class BiNumber {
 	
